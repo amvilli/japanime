@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Nav sections here  */
+.nav {
+    height: 10vh;
+    width: 100%;
+    background-color: #1E1E1E;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 6px 20px 4px black;
+}
+
+.nav-title {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(250, 247, 251);
+    border-radius: 30px;
+    background-color: white;
+    padding: 2px;
+}
+
+.nav-title h1 {
+    font-family: "poppins";
+    font-weight: 600;
+}
+
+.nav-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+
+}
+
+.nav-btns {
+    padding-right: 10px;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.nav-left .login-btn {
+    width: 85px;
+    height: 39px;
+    border-radius: 20px;
+    font-family: Poppins, Arial;
+    font-weight: 700;
+    font-size: 19px;
+    background: rgba(255, 255, 255, 0.723);
+}
+
+.user-profile-btn {
+    width: 40px;
+    height: 40px;
+    outline: none;
+    /* padding: 5px; */
+    border-radius: 30px;
+    background-color: #1E1E1E;
+
+}
+
+.user-profile-img {
+    width: 100%;
+}
+
+
+/*  navbar search fieids  */
+.nav-inputs {
+    /* border: 1px  solid red ; */
+    display: flex;
+    justify-content: end;
+    position: relative;
+    left: 200px;
+    width: 50%;
+    gap: 10px;
+}
+
+.search {
+    background-color: rgba(255, 255, 255, 0.1);
+    outline: none;
+    border: 0.3px solid white;
+    border-radius: 30px;
+    color: white;
+    padding-left: 30px;
+    font-weight: 600;
+}
+
+.search-img {
+    width: 38px;
+    filter: invert(1);
+
+}
+
+
+/* home  sections  */
+/* .differentiator {
+    content: "";
+    display: flex;
+    width: 100%;
+    height: 8px; 
+    background-color: #424242;
+} */
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    width: 100%;
+    background-color: #1E1E1E;
+    color: white;
+}
+
+.home-bgimg {
+    position: absolute;
+
+    width: 90vw;
+    height: 80vh;
+    object-fit: cover;
+    position: relative;
+    left: 128px;
+    mask-image: linear-gradient(to left, rgba(0, 0, 0, 0.8) 45%, rgba(0, 0, 0, 0) 99%);
+    -webkit-mask-image: linear-gradient(to left, rgb(12, 12, 12) 40%, rgba(36, 35, 35, 0.0.1) 100%);
+
+}
+
+.home-contianer {
+    width: 100%;
+    position: relative;
+    bottom: 522px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    color: white;
+    background-color: transparent;
+}
+
+.contianer-left {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-left: 15px;
+    gap: 10px;
+    height: 100%;
+    flex-direction: column;
+
+
+}
+
+.contianer-right {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+}
+
+.home-anime-details {
+    display: flex;
+    text-align: center;
+    position: relative;
+    gap: 20px;
+    align-items: center;
+    padding-bottom: 4px;
+    font-family: "poppins", Arial;
+    font-weight: 600;
+    font-size: 12px;
+    border-bottom: 0.1px solid white;
+}
+
+.h-icons {
+    width: 15px;
+
+    text-align: center;
+
+}
+
+.date-icon {
+    width: 22px;
+}
+
+.h-anime-info {
+    /* display: flex; */
+
+}
+
+.h-anime-title h1 {
+    margin-top: 10px;
+    font-family: "poppons", Arial;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.h-anime-description {
+    padding-top: 20px;
+    font-family: "poppons", Arial;
+    font-size: 13px;
+}
+
+.h-btns {
+    position: relative;
+    top: 100px;
+    gap: 10px;
+    display: flex;
+}
+
+.watch-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", serif;
+    font-weight: 300;
+    gap: 7px;
+    color: rgb(252, 245, 245);
+    background-color: rgba(255, 255, 255, 0.116);
+    outline: none;
+    border: 0.1px solid white;
+    border-radius: 30px;
+    width: 140px;
+    height: 40px;
+
+}
+
+.details-btn {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", serif;
+    font-weight: 300;
+    gap: 7px;
+    color: rgb(252, 245, 245);
+    background-color: rgba(255, 255, 255, 0.116);
+    outline: none;
+    border: 0.1px solid white;
+    border-radius: 30px;
+    width: 110px;
+    height: 40px;
+
+
+}
+
+.watch-btn img {
+    width: 28px;
+
+}
+
+.details-btn img {
+    width: 18px;
+    filter: invert(1);
+
+}
