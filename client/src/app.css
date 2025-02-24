@@ -474,3 +474,58 @@ main {
 
 }
 
+
+/*  Footer starts form herer  */
+
+.f-container{
+    width: 100%;
+    height: 70vh;
+    color: white;
+    background-color: black;
+}
+.f-box {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    text-align: center;
+    gap: 30px;
+}
+.f-boxOne{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    list-style: none;
+    
+}
+.f-boxtwo{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    list-style: none;
+
+    
+}
+.f-boxthree{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+
+    align-items:start ;
+    justify-content: center;
+
+}
+
+.f-allrights-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}

@@ -1,19 +1,22 @@
+html,
+body {
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color:  red; */
+}
 
-html, body {
-    width: 100vw;
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /* background-color:  red; */
-  }
-  
 body::-webkit-scrollbar {
   display: none;
-  
+
 }
-.root{
-  position: relative;
-  bottom: 65px;
-  background-color: transparent;
+
+.root {
+  height: 100%;
+  width: 100%;
+
+  margin-top: -65px;
+  background-color: black;
 }

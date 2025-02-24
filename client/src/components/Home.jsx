@@ -1,3 +1,4 @@
+import Footer from "./Footer"
 import Movies from "./Movies"
 import Trending from "./Trending"
 
@@ -38,7 +39,8 @@ function Home() {
                 </div>
             </main>
             <Trending />
-            <Movies/>
+            <Movies />
+            <Footer />
         </>
     )
 }
